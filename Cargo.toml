@@ -1,0 +1,7 @@
+[package]
+name = "redis_key_check"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+redis = "0.32.4"
