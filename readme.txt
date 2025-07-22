@@ -2,8 +2,9 @@ redis key check program
 ------------------------------------
 
 cargo run 
-  creates the key file (all the keys)
+  Creates the key file (all the keys)
+  uses the SCAN method so that it can be used with huge databases
 
 cargo run --diff 
- check the previously written keys against to current ones and 
- write the new ones and deleted ones to a new file
+ Check the previously written keys against the current ones and 
+ Write the new ones and the deleted ones to a new file
