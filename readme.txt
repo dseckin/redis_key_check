@@ -6,5 +6,5 @@ cargo run
   uses the SCAN method so that it can be used with huge databases
 
 cargo run --diff 
- Check the previously written keys against the current ones and 
- Write the new ones and the deleted ones to a new file
+ Check the previously written keys against the current ones. 
+ At the end, write the new ones as well as the deleted ones to a new file
